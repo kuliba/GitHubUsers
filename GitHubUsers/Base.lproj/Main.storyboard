@@ -181,9 +181,8 @@
                                     <constraint firstAttribute="height" constant="60" id="wJa-8g-Phe"/>
                                 </constraints>
                             </view>
-                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5l2-20-OuF">
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5l2-20-OuF">
                                 <rect key="frame" x="0.0" y="103" width="414" height="793"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <wkWebViewConfiguration key="configuration">
                                     <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
@@ -193,7 +192,11 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="5l2-20-OuF" firstAttribute="top" secondItem="Rj0-n9-NcE" secondAttribute="top" constant="59" id="K35-Xf-pKa"/>
+                            <constraint firstAttribute="bottom" secondItem="5l2-20-OuF" secondAttribute="bottom" id="TZk-MB-LaZ"/>
+                            <constraint firstItem="5l2-20-OuF" firstAttribute="trailing" secondItem="Rj0-n9-NcE" secondAttribute="trailing" id="hCm-o7-Li2"/>
                             <constraint firstItem="Y7b-D9-0MK" firstAttribute="trailing" secondItem="Rj0-n9-NcE" secondAttribute="trailing" id="jwH-IS-sei"/>
+                            <constraint firstItem="5l2-20-OuF" firstAttribute="leading" secondItem="Rj0-n9-NcE" secondAttribute="leading" id="mOQ-nT-ze2"/>
                             <constraint firstItem="Y7b-D9-0MK" firstAttribute="top" secondItem="Rj0-n9-NcE" secondAttribute="top" id="pos-eI-krg"/>
                             <constraint firstItem="Y7b-D9-0MK" firstAttribute="leading" secondItem="Rj0-n9-NcE" secondAttribute="leading" id="vaI-P9-KbQ"/>
                         </constraints>
